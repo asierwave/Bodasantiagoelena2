@@ -5,6 +5,8 @@
 
   export default defineConfig({
     plugins: [react()],
+      base: '/Bodasantiagoelena2/', // <-- cambia por el nombre de tu repo
+
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
