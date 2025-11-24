@@ -390,16 +390,16 @@
     inset: -2px;
   }
 
-  .top-0 {
-    top: calc(var(--spacing) * 0);
-  }
-
-  .left-0 {
-    left: calc(var(--spacing) * 0);
-  }
-
   .z-10 {
     z-index: 10;
+  }
+
+  .z-50 {
+    z-index: 50;
+  }
+
+  .z-\[5\] {
+    z-index: 5;
   }
 
   .mt-\[80px\] {
@@ -431,14 +431,13 @@
     height: 26px;
   }
 
-  .size-\[1919px\] {
-    width: 1919px;
-    height: 1919px;
-  }
-
   .size-full {
     width: 100%;
     height: 100%;
+  }
+
+  .h-\[100vh\] {
+    height: 100vh;
   }
 
   .h-\[400px\] {
@@ -449,12 +448,8 @@
     height: 100%;
   }
 
-  .min-h-\[600px\] {
-    min-height: 600px;
-  }
-
-  .min-h-\[1000px\] {
-    min-height: 1000px;
+  .min-h-\[100vh\] {
+    min-height: 100vh;
   }
 
   .min-h-px {
@@ -557,10 +552,6 @@
     gap: 40px;
   }
 
-  .gap-\[80px\] {
-    gap: 80px;
-  }
-
   .gap-\[120px\] {
     gap: 120px;
   }
@@ -599,6 +590,11 @@
 
   .rounded-md {
     border-radius: calc(var(--radius)  - 2px);
+  }
+
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
 
   .border-4 {
@@ -768,16 +764,12 @@
     padding-top: 40px;
   }
 
-  .pt-\[120px\] {
-    padding-top: 120px;
+  .pt-\[80px\] {
+    padding-top: 80px;
   }
 
   .pb-0 {
     padding-bottom: calc(var(--spacing) * 0);
-  }
-
-  .pb-\[24px\] {
-    padding-bottom: 24px;
   }
 
   .pb-\[40px\] {
@@ -915,6 +907,12 @@
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
 
+  .transition-opacity {
+    transition-property: opacity;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+
   .outline-none {
     --tw-outline-style: none;
     outline-style: none;
@@ -947,6 +945,12 @@
   @media (hover: hover) {
     .hover\:bg-\[\#452746\]\/10:hover {
       background-color: oklab(32.4159% .0548091 -.0372058 / .1);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:opacity-70:hover {
+      opacity: .7;
     }
   }
 
@@ -984,18 +988,6 @@
   @media (width >= 48rem) {
     .md\:h-\[693px\] {
       height: 693px;
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:h-\[1080px\] {
-      height: 1080px;
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:h-\[1893px\] {
-      height: 1893px;
     }
   }
 
@@ -1090,8 +1082,8 @@
   }
 
   @media (width >= 48rem) {
-    .md\:pt-0 {
-      padding-top: calc(var(--spacing) * 0);
+    .md\:pt-\[120px\] {
+      padding-top: 120px;
     }
   }
 
