@@ -4,6 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
+      base: '/Bodasantiagoelena2/', // <-- reemplaza REPO_NAME
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
