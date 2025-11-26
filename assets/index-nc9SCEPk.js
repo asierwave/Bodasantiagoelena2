@@ -16093,14 +16093,14 @@ function cS() {
             initial: { opacity: 0, y: 50 },
             animate: { opacity: 1, y: 0 },
             transition: { duration: 1.2, ease: [0.22, 1, 0.36, 1] },
-            children: "~Santiago & Elena~",
+            children: "Elena & Santi",
           }),
           P.jsx(ae.p, {
             className: "relative shrink-0 text-neutral-100 text-center",
             initial: { opacity: 0, y: 50 },
             animate: { opacity: 1, y: 0 },
             transition: { duration: 1.2, delay: 0.2, ease: [0.22, 1, 0.36, 1] },
-            children: "12-07-2025",
+            children: "11/04/2026",
           }),
         ],
       }),
@@ -16169,7 +16169,7 @@ function fS() {
                       children: P.jsx("p", {
                         className:
                           "font-['Migra_Italic:Extralight_Italic',sans-serif] italic leading-[normal] relative shrink-0 text-[24px] md:text-[36px] lg:text-[42px] text-black text-center px-4",
-                        children: "TE ESPERAMOS",
+                        children: "NOS VEMOS EN ",
                       }),
                     }),
                     P.jsx("p", {
