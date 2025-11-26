@@ -16093,7 +16093,7 @@ function cS() {
             initial: { opacity: 0, y: 50 },
             animate: { opacity: 1, y: 0 },
             transition: { duration: 1.2, ease: [0.22, 1, 0.36, 1] },
-            children: "Elena",
+            children: "Elena & Santi",
           }),
           P.jsx(ae.p, {
             className: "relative shrink-0 text-neutral-100 text-center",
