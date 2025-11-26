@@ -15969,7 +15969,7 @@ function cS() {
                     children: P.jsx("p", {
                       className:
                         "font-['Migra:Extralight',sans-serif] leading-[normal] not-italic relative shrink-0 text-[32px] lg:text-[36px] text-black text-center",
-                      children: "~S & L~",
+                      children: "E & S",
                     }),
                   }),
                   P.jsx("div", {
@@ -16352,7 +16352,7 @@ function dS() {
                     P.jsx("p", {
                       className:
                         "font-['Migra_Italic:Extralight_Italic',sans-serif] italic leading-[normal] relative shrink-0 text-[#452746] text-[80px] md:text-[120px] lg:text-[160px] text-center px-4",
-                      children: "¿confirma tu asistencia?",
+                      children: "¿confirma tu asistenciae?",
                     }),
                     P.jsx("div", {
                       className:
