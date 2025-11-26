@@ -3,8 +3,8 @@
 /* ...existing code... */
 @font-face {
   font-family: 'Inter:Bold';
-  src: url('/Bodasantiagoelena2/fonts/Inter-Bold.woff2') format('woff2'),
-       url('/Bodasantiagoelena2/fonts/Inter-Bold.woff') format('woff');
+  src: url('./fonts/Inter-Bold.woff2') format('woff2'),
+       url('./fonts/Inter-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -12,8 +12,8 @@
 
 @font-face {
   font-family: 'Migra:Extralight';
-  src: url('./assets/fonts/Migra-Extralight.woff2') format('woff2'),
-       url('./assets/fonts/Migra-Extralight.woff') format('woff');
+  src: url('./fonts/Migra-Extralight.woff2') format('woff2'),
+       url('./fonts/Migra-Extralight.woff') format('woff');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -21,8 +21,8 @@
 
 @font-face {
   font-family: 'Migra Italic:Extralight Italic';
-  src: url('./assets/fonts/Migra-Extralight-Italic.woff2') format('woff2'),
-       url('./assets/fonts/Migra-Extralight-Italic.woff') format('woff');
+  src: url('./fonts/Migra-Extralight-Italic.woff2') format('woff2'),
+       url('./fonts/Migra-Extralight.woff') format('woff');
   font-weight: 200;
   font-style: italic;
   font-display: swap;
