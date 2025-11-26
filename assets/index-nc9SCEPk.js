@@ -15911,13 +15911,13 @@ function qp(n, r) {
     ["path", { d: "m6 6 12 12", key: "d8bk6v" }],
   ],
   oS = Om("x", sS),
-  lS = "./assets/ba2569d1aa3effa6179d2bd463c121f6c7928d4f-DpQ59Tnu.png",
-  aS = "./assets/06f492bf9cf2e2abba2d5b4ae86aff3572851f51-CYFLLF9q.png",
+  lS = "./assets/enseñando.jpeg",
+  aS = "./assets/iglesia.jpeg",
   zm = "P.º de la Virgen del Puerto, 4, Centro, 28013 Madrid",
   uS = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
     zm
   )}`,
-  eh = "https://wa.me/34662233037";
+  eh = "https://wa.me/34637101282";
 function cS() {
   const [n, r] = O.useState(!1),
     s = O.useRef(null),
