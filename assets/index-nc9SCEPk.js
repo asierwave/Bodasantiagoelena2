@@ -16169,7 +16169,7 @@ function fS() {
                       children: P.jsx("p", {
                         className:
                           "font-['Migra_Italic:Extralight_Italic',sans-serif] italic leading-[normal] relative shrink-0 text-[24px] md:text-[36px] lg:text-[42px] text-black text-center px-4",
-                        children: "CEREMONIA ",
+                        children: "TE ESPERAMOS",
                       }),
                     }),
                     P.jsx("p", {
