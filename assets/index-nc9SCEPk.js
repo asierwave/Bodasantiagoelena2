@@ -16903,7 +16903,7 @@ function pS() {
       children: P.jsx("p", {
         className:
           "font-['Migra:Extralight',sans-serif] leading-[normal] not-italic relative shrink-0 text-[30px] md:text-[36px] text-black text-center",
-        children: "~S & L~ 2026",
+        children: "E & S 2026",
       }),
     }),
   });
