@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
     <title>Boda Elena y Santi</title>
-    
     <script
       type="module"
       crossorigin
@@ -15,153 +14,9 @@
       rel="stylesheet"
       crossorigin
       href="./assets/index-CgpepZtR.css" />
-    
-    <style>
-        /* Definición de la Fuente y Colores (simulados) */
-        body {
-            font-family: Arial, sans-serif; /* Usamos Arial como base para mantener la legibilidad */
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #452746; /* Color de texto oscuro, similar al logo */
-        }
+  </head>
 
-        /* Estilo para la Barra de Navegación Superior (simulación de la imagen) */
-        .header-nav {
-            background-color: #ffffff; /* Fondo blanco para la barra superior */
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 50px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        }
-
-        .header-nav .logo {
-            font-size: 1.5em;
-            font-weight: 500;
-            color: #452746; /* Color del logo ~S&L~ */
-        }
-
-        .header-nav .menu-items {
-            display: flex;
-            gap: 30px;
-        }
-
-        .header-nav .menu-items a {
-            text-decoration: none;
-            color: #555;
-            font-size: 1em;
-            transition: color 0.3s;
-        }
-
-        .header-nav .menu-items a:hover {
-            color: #452746;
-        }
-
-        .header-nav .contact-button {
-            background-color: #452746; /* Color del botón "Contacta con los novios" */
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background-color 0.3s;
-        }
-        
-        .header-nav .contact-button:hover {
-            background-color: #5a3358;
-        }
-
-        /* Estilos para el Contenedor de la Imagen y el Texto (simulación de la sección principal) */
-        .hero-section {
-            background: url('tu_imagen_de_fondo.jpg') center center/cover no-repeat; /* Cambia 'tu_imagen_de_fondo.jpg' por la URL de tu imagen */
-            min-height: 500px; /* Altura mínima para mostrar la imagen */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white; /* Color blanco para el texto sobre la imagen */
-            text-align: center;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejor lectura */
-        }
-
-        .hero-section h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            font-weight: 300;
-        }
-
-        .hero-section p {
-            font-size: 1.5em;
-            margin-top: 0;
-            font-weight: 300;
-        }
-
-        /* Estilo Específico del Contador */
-        #countdown-timer-display {
-            font-size: 2em; /* Tamaño del texto del contador */
-            font-weight: 600; /* Hace que el número sea más visible */
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
-            border-radius: 5px;
-        }
-
-    </style>
-</head>
-
-<body>
-    <header class="header-nav">
-        <span class="logo">~S & L~</span>
-        <nav class="menu-items">
-            <a href="#">La ceremonia</a>
-            <a href="#">Confirma tu asistencia</a>
-            <a href="#" class="contact-button">Contacta con los novios</a>
-        </nav>
-    </header>
-
-    <div class="hero-section">
-        <h1>Elena & Santi</h1>
-        <p>11/04/2026</p>
-        
-        <div id="countdown-timer-display">Cargando contador...</div>
-    </div>
-
+  <body>
     <div id="root"></div>
-
-    <script>
-        // La fecha objetivo: 11 de abril de 2026 a medianoche (00:00:00)
-        const targetDate = new Date("2026-04-11T00:00:00").getTime();
-
-        // Función que calcula y actualiza el conteo cada segundo
-        function updateCountdown() {
-            const now = new Date().getTime();
-            const distance = targetDate - now;
-
-            // Cálculos para días, horas, minutos y segundos
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Mostrar el resultado
-            const timerElement = document.getElementById("countdown-timer-display");
-            
-            if (timerElement) {
-                if (distance > 0) {
-                    timerElement.innerHTML =
-                        days + " días | " + hours + "h " + minutes + "m " + seconds + "s";
-                } else {
-                    clearInterval(countdownInterval);
-                    timerElement.innerHTML = "¡LA BODA ES HOY!";
-                }
-            }
-        }
-
-        // Ejecutar la función inmediatamente y repetir cada 1 segundo (1000ms)
-        updateCountdown();
-        const countdownInterval = setInterval(updateCountdown, 1000);
-    </script>
-</body>
+  </body>
 </html>
