@@ -1,8 +1,8 @@
 import { useState, useRef } from "react";
 import { motion, useScroll, useTransform, AnimatePresence } from "motion/react";
 import { Menu, X } from "lucide-react";
-import imgFrame2 from "assets/fotoprincipal.jpeg";
-import imgFrame3 from "assets/fotoiglesia.jpeg";
+import imgFrame2 from "./assets/fotoprincipal.jpeg";
+import imgFrame3 from "./assets/fotoiglesia.jpeg";
 
 const GOOGLE_MAPS_ADDRESS = "P.º de la Virgen del Puerto, 4, Centro, 28013 Madrid";
 const GOOGLE_MAPS_URL = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(GOOGLE_MAPS_ADDRESS)}`;
