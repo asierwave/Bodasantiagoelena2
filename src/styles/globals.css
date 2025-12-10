@@ -2,6 +2,7 @@
 
 :root {
   --font-size: 16px;
+  --font-family-primary: 'Roboto Slab', serif;
   --background: #ffffff;
   --foreground: oklch(0.145 0 0);
   --card: #ffffff;
@@ -126,8 +127,6 @@
 
   body {
     @apply bg-background text-foreground;
-      font-family: "Roboto Slab", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-
   }
 }
 
@@ -188,4 +187,5 @@
 
 html {
   font-size: var(--font-size);
+  font-family: var(--font-family-primary);
 }
